@@ -1,0 +1,19 @@
+/*
+Font
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.code-text {
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.description {
+    border-radius: 15px;
+}
