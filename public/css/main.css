@@ -8,9 +8,7 @@ body {
 }
 
 .code-text {
-    background-color: black;
-    color: white;
-    padding: 4px;
+    background-color: lightgray;
     border-radius: 5px;
 }
 
