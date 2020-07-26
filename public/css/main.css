@@ -2,9 +2,9 @@
 Font
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 body {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
 }
 
 .code-text {
@@ -14,4 +14,25 @@ body {
 
 .description {
     border-radius: 15px;
+}
+
+.social-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+}
+
+.social-buttons a {
+    margin: 5px;
+}
+
+.img {
+    border-radius: 25px !important;
+}
+
+@media screen and(max-width: 600px) {
+    .social-buttons {
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
 }
